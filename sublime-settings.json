@@ -1,0 +1,21 @@
+{
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 3,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
+	"draw_white_space": "all",
+	"font_size": 12.5,
+	"ignored_packages": [
+		"Vintage"
+	],
+	"open_files_in_new_window": false,
+	"show_line_endings": true,
+	"folder_exclude_patterns": [
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules"
+	]
+}

@@ -1,0 +1,7 @@
+https://github.com/nvbn/thefuck
+https://pkgs.org/search/?q=adduser
+https://pkgs.org/download/apt-utils
+https://pkgs.org/download/speedtest-cli
+https://pkgs.org/download/ffmpeg
+https://pkgs.org/download/net-tools
+https://pkgs.org/download/node-cli

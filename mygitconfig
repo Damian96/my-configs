@@ -1,0 +1,17 @@
+[user]
+	email = dgiankakis@citycollege.sheffield.eu
+	password = mypassword
+	name = Damianos
+[alias]
+	st = status
+	aa = add .
+	aad = add . --dru-run
+	cm = commit -m
+	co = checkout
+
+	branches = branch -av
+	remotes = remote -v
+
+	lg = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+[credential "microsoft.visualstudio.com"]
+	authority = GitHub
