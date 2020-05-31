@@ -1,2 +1,5 @@
 # my-configs
-A handy repo for my Linux configurations
+A handy repo for my Linux (and not only) configurations
+
+# LICENSE
+UNLICENSED

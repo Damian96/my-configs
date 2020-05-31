@@ -1,7 +1,10 @@
-https://github.com/nvbn/thefuck
+# List of packages that I find useful
 https://pkgs.org/search/?q=adduser
 https://pkgs.org/download/apt-utils
-https://pkgs.org/download/speedtest-cli
 https://pkgs.org/download/ffmpeg
+https://pkgs.org/download/vim
+https://pkgs.org/download/mplayer
+https://pkgs.org/download/vlc
 https://pkgs.org/download/net-tools
-https://pkgs.org/download/node-cli
+https://pkgs.org/download/speedtest-cli
+https://github.com/nvbn/thefuck

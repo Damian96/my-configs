@@ -1,3 +1,50 @@
+# a list of my bash aliases
 alias cls="clear"
-alias ll="ls -lAS"
 alias pls="sudo"
+alias apt-get="sudo apt-get"
+
+# ls
+alias ll="ls -lhAS"
+alias lh="ls -d .* --color=auto" # hidden
+
+# cd
+alias ..="cd .."
+alias ...="cd ../../../"
+alias ....="cd ../../../../"
+alias .....="cd ../../../../"
+
+# grep
+alias grep="grep --color=auto"
+
+# other
+alias path="echo -e ${PATH//:/\\n}"
+alias now="date +"%T""
+alias nowtime=now
+alias nowdate="date +"%d-%m-%Y""
+
+# confirmation
+alias mv="mv -i"
+alias cp="cp -i"
+alias ln="ln -i"
+
+# do not delete / or prompt if deleting more than 3 files at a time #
+alias rm='rm -I --preserve-root'
+
+# play all music files from the current directory
+alias playwave='for i in *.wav; do mplayer "$i"; done'
+alias playogg='for i in *.ogg; do mplayer "$i"; done'
+alias playmp3='for i in *.mp3; do mplayer "$i"; done'
+
+# pass options to free
+alias meminfo='free -m -l -t'
+
+# get top process eating memory
+alias psmem='ps auxf | sort -nr -k 4'
+alias psmem10='ps auxf | sort -nr -k 4 | head -10'
+
+# get top process eating cpu
+alias pscpu='ps auxf | sort -nr -k 3'
+alias pscpu10='ps auxf | sort -nr -k 3 | head -10'
+
+# Get server cpu info
+alias cpuinfo='lscpu'
